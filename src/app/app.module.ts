@@ -15,7 +15,7 @@ import { DateComponent } from './date/date.component';
 import { TextAreaComponent } from './text-area/text-area.component';
 import { ToolbarIconsComponent } from './toolbar-icons/toolbar-icons.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import {MatIconModule} from '@angular/material/icon';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,12 +29,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BodyComponent,
     DateComponent,
     TextAreaComponent,
-    ToolbarIconsComponent
+    ToolbarIconsComponent,
+    
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

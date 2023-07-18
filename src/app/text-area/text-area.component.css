@@ -1,8 +1,25 @@
 input{
 
     width: 80%;
-    height: 80%;
+    height: 70%;
     border-radius: 20px;
     border: none;
     background-color: white;
+}
+
+.icons{
+
+    color: grey;
+}
+
+.textArea{
+    height: 100%;
+    background-color: rgb(236, 234, 234);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: .5%;
+    
+    align-items: center;
+
 }
