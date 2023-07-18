@@ -1,7 +1,7 @@
 app-toolbar{
 
     height: 5%;
-    background-color: white;
+    background-color: rgb(236, 234, 234);
     width: 100%;
     display: flex;
     justify-content: space-between;

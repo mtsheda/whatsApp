@@ -1,3 +1,5 @@
+<!--
+
 <div class="icons"><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="notifications" class="notification"></mat-icon><div class="iconDescription">Notification<hr></div></div>
 <div class="icons"><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="security" class="notification"></mat-icon><div  class="iconDescription">Security<hr></div></div>
 
@@ -7,7 +9,17 @@
 <div class="icons"><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="desktop settings" class="notification"></mat-icon><div class="iconDescription">Desktop Settings<hr></div></div>
 <div class="icons"><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="keyboard shortcuts" class="notification"></mat-icon><div class="iconDescription">Keyboard Settings<hr></div></div>
 <div class="icons"><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="help" class="notification"></mat-icon><div class="iconDescription">Help</div></div>
+-->
 
+<div *ngFor="let iconData of iconsData" class="icons">
+    <mat-icon
+      aria-hidden="false"
+      aria-label="Example home icon"
+      [fontIcon]="iconData.fontIcon"
+      class="notification"
+    ></mat-icon>
+    <div class="iconDescription">{{ iconData.description }}<hr></div>
+  </div>
 
 
 
