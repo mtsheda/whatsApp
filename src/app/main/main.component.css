@@ -1,0 +1,22 @@
+app-toolbar, app-text-area{
+
+    height: 5%;
+    background-color: rgb(236, 234, 234);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    align-items: center;
+
+}
+
+app-body{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-items: flex-end;
+    height: 90%;
+}
+

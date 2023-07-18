@@ -1,0 +1,23 @@
+p{
+    background-color: rgb(224, 224, 20);
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+
+}
+
+.bodyFlex{
+
+background-color: yellowgreen;
+height: 80%;
+}
+
+.bodyBottom{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+

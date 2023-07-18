@@ -1,0 +1,25 @@
+app-tooba-pic{
+
+    height: 100%;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    width: 50%;
+    
+    
+}
+
+app-toolbar-icons{
+
+    height: 100%;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    width: 50%;
+    justify-items: flex-end;
+    align-content: flex-end;
+    justify-content: flex-end;
+    
+
+
+}
